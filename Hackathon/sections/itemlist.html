@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rewear - Items</title>
+   <link rel="icon" href="logo rewear.jpg" type="image/jpg">
+   <link rel="stylesheet" href="item.css">
+   <style>
+    header {
+  background: linear-gradient(90deg, #a16ae8, #f84aa7);
+  padding: 0.7rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: nowrap;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.brand img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.brand-text h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.brand-text b {
+  font-size: 0.75rem;
+  font-weight: 400;
+  display: block;
+  line-height: 1.2;
+}
+
+.sections {
+  display: flex;
+  gap: 1rem;
+  flex-grow: 1;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.sections a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  white-space: nowrap;
+  transition: background 0.3s;
+}
+
+.sections a:hover {
+  background-color: #ffffff3b;
+}
+
+.search-bar {
+  flex-shrink: 0;
+}
+
+.search-bar input {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  width: 180px;
+  transition: width 0.3s ease;
+}
+
+.search-bar input:focus {
+  outline: none;
+  width: 220px;
+}
+
+/* Optional responsiveness */
+@media (max-width: 1000px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .sections {
+    order: 3;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .search-bar {
+    order: 2;
+  }
+}
+
+   </style>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div>
+        <img src="logo rewear.jpg" alt="logo" width="50px">
+        <h2>NOVA.REWEAR</h2>
+        <b>SHOP CLOSET</b>
+      </div>
+      <input type="text" placeholder="Search your fashion...">
+    </div>
+    <div class="sections">
+      <a href="home.html">HOME</a>
+      <a href="about us.html">ABOUT US</a>
+      <a href="adminPanel.html">ADMIN PANEL</a>
+      <a href="itemlist.html">SHOP CLOSET</a>
+      <a href="login.html">LOGIN</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="product-image">
+      <div class="product-image">
+  <img src="blue kurta.webp" alt="Product" />
+</div>
+
+    </div>
+    <div class="product-details">
+      <h2>BLUE KURTA SET</h2>
+      <p>BUY HERE</p>
+      <div class="product-label">ADD TO CART</div>
+    </div>
+  </div>
+
+  <div class="items-grid">
+    <div class="item"><span class="item-label">New</span>TopWear</div>
+    <div class="item"><span class="item-label">Trending</span>BottomWear</div>
+    <div class="item"><span class="item-label">Recycled</span>Scarfs</div>
+    <div class="item"><span class="item-label">Hot</span>Accessories</div>
+  </div>
+</body>
+</html>

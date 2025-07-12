@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - NovaRewear</title>
+   <link rel="icon" href="logo rewear.jpg" type="image/jpg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #f5e6ff, #e0f7fa);
+      color: #222;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #b620e0, #ff66c4);
+      padding: 20px 40px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .nav-link {
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      transition: opacity 0.3s ease;
+    }
+
+    .nav-link:hover {
+      opacity: 0.8;
+    }
+
+    .about-container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 40px;
+      background: white;
+      border-radius: 25px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .about-container h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 36px;
+      color: #b620e0;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      font-size: 22px;
+      color: #4a148c;
+      margin-bottom: 10px;
+    }
+
+    p, li {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #333;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li::marker {
+      color: #ff66c4;
+    }
+
+    @media (max-width: 768px) {
+      .about-container {
+        padding: 25px;
+        margin: 20px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">REWEAR</div>
+    <div>
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="itemlist.html">Shop Closet</a>
+      <a class="nav-link" href="#">About</a>
+    </div>
+  </header>
+
+  <div class="about-container">
+    <h1>About NovaRewear</h1>
+
+    <section>
+      <h2>➤ Who We Are</h2>
+      <p>NovaRewear is a student-built platform created for the Odoo Hackathon 2025. We aim to reduce fashion waste by helping users exchange unused clothing in a fun and meaningful way.</p>
+    </section>
+
+    <section>
+      <h2>➤ Our Mission</h2>
+      <p>We want to make sustainable fashion accessible. NovaRewear connects people who want to swap clothes or redeem items using points, encouraging a reuse-before-discard lifestyle.</p>
+    </section>
+
+    <section>
+      <h2>➤ What You Can Do</h2>
+      <ul>
+        <li>List your unused clothes with details and images</li>
+        <li>Swap clothes directly with others</li>
+        <li>Earn points and redeem them on clothes you like</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>➤ Meet the Team</h2>
+      <p>We are four students who designed, developed, and deployed NovaRewear as our contribution to making fashion circular and sustainable.</p>
+      <ul>
+        <li>Shivaraj – Backend & JS Logic</li>
+        <li>Sejal – UI/UX Design</li>
+        <li>Priyal – Frontend Integration</li>
+        <li>Sarmishtha – GitHub & Testing</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>➤ Contact Us</h2>
+      <ul>
+        <li><strong>Phone:</strong> 9876543210</li>
+        <li><strong>Email:</strong> novarewear25@gmail.com</li>
+        <li><strong>Twitter:</strong> @novarewear25</li>
+        <li><strong>Location:</strong> NovaRewear Internet Private Limited, Newton Building-Ring Road, New Delhi.</li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+</html>
