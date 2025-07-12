@@ -1,5 +1,6 @@
 # ReWearODOO
 odoo hackathon25
+🔴🔴 Please Open **landing.html** page in codespace initially 🔴🔴
 
 # ReWear – Community Clothing Exchange 👕
 
