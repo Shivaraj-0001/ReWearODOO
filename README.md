@@ -18,7 +18,7 @@ A web-based platform created during **Odoo Hackathon 2025** to promote sustainab
 - GitHub Pages (for hosting)
 
 ## 👥 Team Members
-- Shiv – Backend + JS
+- Shivaraj – Backend + JS
 - Sejal – UI/UX Design
 - Priyal – Frontend Integration
 - Sarmishtha – GitHub & Deployment
