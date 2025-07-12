@@ -12,10 +12,6 @@ A web-based platform created during **Odoo Hackathon 2025** to promote sustainab
 - Swap clothes directly or redeem using points
 - Admin dashboard to review listings
 
-## 🌟 User Roles
-- **User**: List, browse, swap, redeem
-- **Admin**: Approve/reject items, remove spam
-
 ## 💻 Tech Stack
 - HTML, CSS, JavaScript
 - LocalStorage or mock backend for demo
@@ -27,8 +23,4 @@ A web-based platform created during **Odoo Hackathon 2025** to promote sustainab
 - Priyal – Frontend Integration
 - Sarmishtha – GitHub & Deployment
 
-## 🚀 Hosted Link
-[Live Demo](https://your-github-username.github.io/rewear)
 
-## 👨‍🏫 Mentor
-- Akash Parmar (akap)
