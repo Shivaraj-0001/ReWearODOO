@@ -23,9 +23,9 @@ A web-based platform created during **Odoo Hackathon 2025** to promote sustainab
 
 ## 👥 Team Members
 - Shiv – Backend + JS
-- Ananya – UI/UX Design
-- Rahul – Frontend Integration
-- Priya – GitHub & Deployment
+- Sejal – UI/UX Design
+- Priyal – Frontend Integration
+- Sarmishtha – GitHub & Deployment
 
 ## 🚀 Hosted Link
 [Live Demo](https://your-github-username.github.io/rewear)
