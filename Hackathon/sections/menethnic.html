@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Detail Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="mainproduct.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="topnavbar">
+    <div class="brand-name">Nova.rewear</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Collections</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <a href="#" class="usericon"><i class="fa-solid fa-user"></i></a>
+  </div>
+
+  <!-- Search Bar -->
+  <div class="searchbar">
+    <input type="text" placeholder="Search for styles, colors, fabrics..." />
+    <button class="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Product Image Gallery -->
+    <div class="image-gallery">
+      <img class="main-img" id="currentImage" src="https://m.media-amazon.com/images/I/813qtLP7-tL._SY879_.jpg" alt="Main Dress Image" />
+      
+    </div>
+
+    <!-- Product Description -->
+    <div class="product-description">
+      <h2>Studio Shringaar Men's Cotton Blend Relaxed Fit Ikat Printed Knee Length Kurta</h2>
+      <h3>About This Item</h3>
+      <ul>
+        <li>Men's ready to wear stitched kurta only.</li>
+        <li>【Unique Design】Mens casual shirts feature long sleeve,spread collar, solid color,slight vertical ribbing,relaxed fit,simple and fashion.</li>
+        <li>MATERIAL: 62% Polyester 33% Viscose 5% Elastane, triblend.</li>
+        <li>Fit Type: Regular</li>
+        <li>Sizes: S, M, L, XL, XXL</li>
+        <li>Nehru collar, comfort fit kurta</li>
+      </ul>
+      <h3>Additional Information</h3>
+      <p><strong>Manufacturer:</strong> KLOSIA</p>
+      <p><strong>Packer:</strong> Klosia Empire</p>
+      <p><strong>Item Weight:</strong> 300g</p>
+      <p><strong>Dimensions:</strong> 30 x 10 x 3 cm</p>
+    </div>
+  </div>
+
+  <!-- Previously Viewed -->
+  <h3 class="section-heading">Previously Viewed</h3>
+  <div class="cards">
+    <div class="card"><img src="https://m.media-amazon.com/images/I/81RtMHSX4EL._AC_UL480_FMwebp_QL65_.jpg"><p>Men's Full Sleeve Soild Casual Regular Fit kurta </p></div>
+    <div class="card"><img src="https://m.media-amazon.com/images/I/71Fe+2RgKXL._AC_UL480_FMwebp_QL65_.jpg"><p>Men's Cotton Regular Fit Casual Kurta </p></div>
+    <div class="card"><img src="https://m.media-amazon.com/images/I/517aasWX+nL._AC_UL480_FMwebp_QL65_.jpg"><p>https://m.media-amazon.com/images/I/517aasWX+nL._AC_UL480_FMwebp_QL65_.jpg</p></div>
+  </div>
+
+  <script>
+    function changeImage(thumbnail) {
+      document.getElementById('currentImage').src = thumbnail.src;
+    }
+  </script>
+  <!-- Why Choose NovaRewear -->
+    <section class="why-nova">
+      <h3>Why Choose NovaRewear?</h3>
+      <ul>
+        <li>♻ Sustainable and Affordable Fashion</li>
+        <li>✨ Curated Styles for Every Occasion</li>
+        <li>👗 Easy Returns & Exchanges</li>
+        <li>🚚 Free Shipping on All Orders</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 NovaRewear. All rights reserved.</p>
+    </footer>
+  </div>
+
+</body>
+</html>

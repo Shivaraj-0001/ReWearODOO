@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Detail Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="mainproduct.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="topnavbar">
+    <div class="brand-name">Nova.rewear</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Collections</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <a href="#" class="usericon"><i class="fa-solid fa-user"></i></a>
+  </div>
+
+  <!-- Search Bar -->
+  <div class="searchbar">
+    <input type="text" placeholder="Search for styles, colors, fabrics..." />
+    <button class="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Product Image Gallery -->
+    <div class="image-gallery">
+      <img class="main-img" id="currentImage" src="https://m.media-amazon.com/images/I/41WhRQDTuvL._AC_UL480_FMwebp_QL65_.jpg" alt="Main Dress Image" />
+      
+    </div>
+
+    <!-- Product Description -->
+    <div class="product-description">
+      <h2>CHKOKKO Men Polyester Solid Quick Dry Sports Gym T-Shirt Breathable Moisture-Wicking Half Sleeve Round Crew Neck Regular Fit Active Wear for Running and Training</h2>
+      <h3>About This Item</h3>
+      <ul>
+        <li>【his men gym t-shirt is fabricated with 100% Polyester which gives allowance to wear in every season. It is ultra-soft breathable fabric with the double hemmed shoulders..</li>
+        <li>This CHKOKKO t-shirt is an actual combination of comfort and ease with double stitching at borders. It has various designs with astonishing colors . It is perfect for the gym, jogging, running, yoga, athletic, cycling, stretching, gymnastics, work-out etc. In body heat-up activities human body generally goes wet; it protects the body from being damp..</li>
+        <li>It has anti-odour properties which never let you smell in any weather. The 4-way stretch construction allows better movement in every direction and renders natural movement. Its stretch construction enhances mobility for a superior range of motion. It has the antimicrobial and sweat-wicking technology.</li>
+        <li>Fit Type: Regular</li>
+        <li>Sizes: S, M, L, XL, XXL</li>
+        <li>COccasions】Mens untucked shirts is a great choice for beach, wedding, vacation, cruises, tropical aloha theme, party, yoga, work or daily casual wear.Perfect great for all seasons, Just enjoy your vacation..</li>
+      </ul>
+      <h3>Additional Information</h3>
+      <p><strong>Manufacturer:</strong> KLOSIA</p>
+      <p><strong>Packer:</strong> Klosia Empire</p>
+      <p><strong>Item Weight:</strong> 300g</p>
+      <p><strong>Dimensions:</strong> 30 x 10 x 3 cm</p>
+    </div>
+  </div>
+
+  <!-- Previously Viewed -->
+  <h3 class="section-heading">Previously Viewed</h3>
+  <div class="cards">
+    <div class="card"><img src="https://m.media-amazon.com/images/I/71l353PLHGL._AC_UL480_FMwebp_QL65_.jpg"><p>Men Polyester Solid Quick Dry Half Sleeve Regular Fit </p></div>
+    <div class="card"><img src="https://m.media-amazon.com/images/I/71z9K9hB5PL._AC_UL480_FMwebp_QL65_.jpg"><p>Boldfit Gym Regular Fit T Shirt for Men Round Neck Active Tshirt for Men </p></div>
+    <div class="card"><img src="https://m.media-amazon.com/images/I/41fZyYYE83L._AC_UL480_FMwebp_QL65_.jpg"><p>Track Pant for Men || Trackpants || Mens Track Pant </p></div>
+  </div>
+
+  <script>
+    function changeImage(thumbnail) {
+      document.getElementById('currentImage').src = thumbnail.src;
+    }
+  </script>
+  <!-- Why Choose NovaRewear -->
+    <section class="why-nova">
+      <h3>Why Choose NovaRewear?</h3>
+      <ul>
+        <li>♻ Sustainable and Affordable Fashion</li>
+        <li>✨ Curated Styles for Every Occasion</li>
+        <li>👗 Easy Returns & Exchanges</li>
+        <li>🚚 Free Shipping on All Orders</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 NovaRewear. All rights reserved.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
